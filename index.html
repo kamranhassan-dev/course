@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login & Course Portal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Login Page -->
+  <div id="login-page" class="container active">
+    <div class="login-form">
+      <h1>Welcome Back</h1>
+      <p class="subtitle">Login to your account</p>
+      <form id="login">
+        <div class="form-group">
+          <input type="text" id="username" placeholder="Username" required>
+        </div>
+        <div class="form-group">
+          <input type="password" id="password" placeholder="Password" required>
+        </div>
+        <button type="submit" class="btn">Login</button>
+        <p id="error-message" class="error-message"></p>
+      </form>
+    </div>
+  </div>
+
+  <!-- Course Portal -->
+  <div id="portal-page" class="container">
+    <header class="portal-header">
+      <h1>Course Portal</h1>
+      <button id="logout-btn" class="btn">Logout</button>
+    </header>
+    <div class="course-grid">
+      <div class="course-card">
+        <h2>Business Lead Generation & Automation Process</h2>
+        <p>Master the strategies to capture, nurture, and convert leads into loyal customers.</p>
+        <button id="explore-btn" class="btn">Explore</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Course Content Page -->
+  <div id="course-content-page" class="container">
+    <header class="portal-header">
+      <h1>Business Lead Generation & Automation Process</h1>
+      <button id="back-to-portal-btn" class="btn">Back to Portal</button>
+    </header>
+    <div class="course-content">
+      <h2>Course Sections:</h2>
+      <!-- Parent Module Section with Dropdown -->
+      <div class="course-section">
+        <div class="dropdown-content">
+          
+          <!-- Section 1: Intro to Business Lead Generation -->
+          <div class="module">
+            <button class="accordion">Intro to Business Lead Generation</button>
+            <div class="panel">
+              
+              <!-- Nested Section under "Intro to Business Lead Generation" -->
+              <div class="nested-module">
+                <button class="accordion">1. What is Business Lead</button>
+                <div class="panel">
+                    <iframe src="https://www.youtube.com/embed/kcAzqGcZaus" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="nested-module">
+                <button class="accordion">2. B2B Leads</button>
+                <div class="panel">
+                    <iframe src="https://www.youtube.com/embed/9Dx58ZsoEk4" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="nested-module">
+                <button class="accordion">3. B2C Leads</button>
+                <div class="panel">
+                    <iframe src="https://www.youtube.com/embed/6rW1_YlPAAI" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="nested-module">
+                <button class="accordion">4. Business Lead Generation Campaign</button>
+                <div class="panel">
+                    <iframe src="https://www.youtube.com/embed/xH4Ekqtv-FY" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="nested-module">
+                <button class="accordion">5. Different Marketing Channels For Business Lead Generation</button>
+                <div class="panel">
+                    <iframe src="https://www.youtube.com/embed/DTgRSXd-qw4" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            </div>
+          </div>
+      
+          <!-- Section 2: Lead Campaign Automation Hacks -->
+          <div class="module">
+            <button class="accordion">Lead Campaign Automation Hacks</button>
+            <div class="panel">
+              
+              <!-- Nested Section under "Lead Campaign Automation Hacks" -->
+              <div class="nested-module">
+                <button class="accordion">6. Automation Plan For Business Lead Generation</button>
+                <div class="panel">
+                    <iframe src="https://www.youtube.com/embed/rOFIpZgaz1A" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="nested-module">
+                <button class="accordion">7. Lead Distribution Plan</button>
+                <div class="panel">
+                    <iframe src="https://www.youtube.com/embed/FQ4GvwmFF6U" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="nested-module">
+                <button class="accordion">8. Lead Automation Tools</button>
+                <div class="panel">
+                    <iframe src="https://www.youtube.com/embed/Eqlke-LpCCA" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="nested-module">
+                <button class="accordion">9. Account Setup For Lead Automation Tools</button>
+                <div class="panel">
+                    <iframe src="https://www.youtube.com/embed/J1XOr9635lE" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="nested-module">
+                <button class="accordion">10. Connect Lead Automation Tools With Google Spread Sheet</button>
+                <div class="panel">
+                    <iframe src="https://www.youtube.com/embed/yFvBbnN43AY" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="nested-module">
+              <button class="accordion">11. Email Automation After Lead Capturing</button>
+              <div class="panel">
+                  <iframe src="https://www.youtube.com/embed/M7RIxfCxXzg" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+          </div>
+          
+          <div class="nested-module">
+              <button class="accordion">12. SMS Automation After Lead Capturing</button>
+              <div class="panel">
+                  <iframe src="https://www.youtube.com/embed/0q46YUKFq-Y" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+          </div>
+          
+          <div class="nested-module">
+              <button class="accordion">13. Online/Offline Meeting Automation</button>
+              <div class="panel">
+                  <iframe src="https://www.youtube.com/embed/c3TU7NgePnk" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+          </div>
+            
+            </div>
+          </div>
+      
+          <!-- Section 3: Campaign Idea for Lead Generation -->
+          <div class="module">
+            <button class="accordion">Campaign Idea For Lead Generation</button>
+            <div class="panel">
+              
+              <!-- Nested Section under "Campaign Idea for Lead Generation" -->
+              <div class="nested-module">
+                <button class="accordion">14. How Facebook and Google Ad Network Works</button>
+                <div class="panel">
+                  <iframe src="https://www.youtube.com/embed/mMYDulzi3KI" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+
+              <div class="nested-module">
+                <button class="accordion">15. 360 Degree Data Driven Digital Marketing Campaign Idea</button>
+                <div class="panel">
+                    <iframe src="https://www.youtube.com/embed/JoN1l98hPEY" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="nested-module">
+                <button class="accordion">16. Facebook Page Organic & Viral Lead Generation Campaign Post</button>
+                <div class="panel">
+                    <iframe src="https://www.youtube.com/embed/VCWENa5b-Sk" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="nested-module">
+                <button class="accordion">17. Facebook Group Lead Generation Campaign Idea</button>
+                <div class="panel">
+                    <iframe src="https://www.youtube.com/embed/MaXYUoV4tHI" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="nested-module">
+                <button class="accordion">18. Case Study of Facebook Group Lead Generation</button>
+                <div class="panel">
+                    <iframe src="https://www.youtube.com/embed/bAQNuZYBtEg" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="nested-module">
+                <button class="accordion">19. Lead Capturing From Google Search Engine Organic Visitors</button>
+                <div class="panel">
+                    <iframe src="https://www.youtube.com/embed/7jROFtV3zNo" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="nested-module">
+              <button class="accordion">20. Email Lead Campaign Capturing Idea</button>
+              <div class="panel">
+                  <iframe src="https://www.youtube.com/embed/RLE7BdeDal8" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+          </div>
+          
+          <div class="nested-module">
+              <button class="accordion">21. Lead Geneartion SMS Campaign Idea</button>
+              <div class="panel">
+                  <iframe src="https://www.youtube.com/embed/qBPgN-2NMjs" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+          </div>
+          
+          <div class="nested-module">
+              <button class="accordion">22. What is Google Form</button>
+              <div class="panel">
+                  <iframe src="https://www.youtube.com/embed/f4ZhPmD-cp0" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+          </div>
+
+            </div>
+          </div>
+      
+          <!-- Section 4: Capture Leads from Google Form -->
+          <div class="module">
+            <button class="accordion">Capture Leads from Google Form</button>
+            <div class="panel">
+              
+              <!-- Nested Section under "Capture Leads from Google Form" -->
+            
+            <div class="nested-module">
+                <button class="accordion">23. Create Google From With A Free Gmail Account</button>
+                <div class="panel">
+                    <iframe src="https://www.youtube.com/embed/owbN-ZijDRs" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="nested-module">
+                <button class="accordion">24. Google Form Lead Geneartion Field</button>
+                <div class="panel">
+                    <iframe src="https://www.youtube.com/embed/eM7Miawy2d0" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="nested-module">
+              <button class="accordion">25. Connect Google Sheet With Google Form</button>
+              <div class="panel">
+                  <iframe src="https://www.youtube.com/embed/DBtYQAq5Sag" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+          </div>
+          
+          <div class="nested-module">
+              <button class="accordion">26. What is Facebook Lead Campaign</button>
+              <div class="panel">
+                  <iframe src="https://www.youtube.com/embed/9rKsDsxITkQ" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+          </div>
+        
+            </div>
+          </div>
+      
+          <!-- Section 5: Facebook Lead Campaign -->
+          <div class="module">
+            <button class="accordion">Facebook Lead Campaign</button>
+            <div class="panel">
+              
+              <!-- Nested Section under "Facebook Lead Campaign" -->
+              <div class="nested-module">
+                <button class="accordion">27. Facebook Lead Campaign Structure</button>
+                <div class="panel">
+                  <iframe src="https://www.youtube.com/embed/PyC_qACrWjc" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+
+              <div class="nested-module">
+                <button class="accordion">28. 3 Sizes Facebook Static Ad Creatives</button>
+                <div class="panel">
+                    <iframe src="https://www.youtube.com/embed/OzVbpxjKU-w" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="nested-module">
+                <button class="accordion">29. Facebook Ad Campaign WIth Video Ad</button>
+                <div class="panel">
+                    <iframe src="https://www.youtube.com/embed/zJCPrFVkJdA" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="nested-module">
+                <button class="accordion">30. Carousel Ad Creatives For Lead Campaign</button>
+                <div class="panel">
+                    <iframe src="https://www.youtube.com/embed/BrRo9jJo14w" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="nested-module">
+                <button class="accordion">31. Create Lead Geneartion Form on Facebook Ads</button>
+                <div class="panel">
+                    <iframe src="https://www.youtube.com/embed/3OBANB-dtJg" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="nested-module">
+                <button class="accordion">32. B2B Audience Selection on Facebook Ad Targeting</button>
+                <div class="panel">
+                    <iframe src="https://www.youtube.com/embed/uqPt8HKZ8Po" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="nested-module">
+              <button class="accordion">33. B2C Audience Selection On Facebook Ad</button>
+              <div class="panel">
+                  <iframe src="https://www.youtube.com/embed/mt6G56hlS-Y" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+          </div>
+          
+          <div class="nested-module">
+              <button class="accordion">34. Facebook Lead Collection & Transfer To Google Sheet</button>
+              <div class="panel">
+                  <iframe src="https://www.youtube.com/embed/4bHHx1hO1yk" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+          </div>
+          
+          <div class="nested-module">
+              <button class="accordion">35. Website Lead Form Generation</button>
+              <div class="panel">
+                  <iframe src="https://www.youtube.com/embed/FN8ku4Ytfmg" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+          </div>
+            </div>
+          </div>
+      
+          <!-- Section 6: Website Lead Campaign -->
+          <div class="module">
+            <button class="accordion">Website Lead Campaign</button>
+            <div class="panel">
+              
+              <!-- Nested Section under "Website Lead Campaign" -->
+              <div class="nested-module">
+                <button class="accordion">36. Lead Form Generation Plugin For WordPress Site</button>
+                <div class="panel">
+                    <iframe src="https://www.youtube.com/embed/VkvmSx8j970" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="nested-module">
+                <button class="accordion">37. Contact Form Field Setup</button>
+                <div class="panel">
+                    <iframe src="https://www.youtube.com/embed/qoaO0MqHpmg" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="nested-module">
+                <button class="accordion">38. Email Follow Up On Wesbsite Leads</button>
+                <div class="panel">
+                    <iframe src="https://www.youtube.com/embed/HAJJj8SE13w" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="nested-module">
+                <button class="accordion">39. Google Sheet Integration With Website Leads</button>
+                <div class="panel">
+                    <iframe src="https://www.youtube.com/embed/MournEoGkCI" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="nested-module">
+                <button class="accordion">40. Collect Email Leads from Any Website</button>
+                <div class="panel">
+                    <iframe src="https://www.youtube.com/embed/dEyxyiUeChI" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            </div>
+          </div>
+      
+          <!-- Section 7: Email Lead Campaign -->
+          <div class="module">
+            <button class="accordion">Email Lead Campaign</button>
+            <div class="panel">
+              
+              <!-- Nested Section under "Email Lead Campaign" -->
+              <div class="nested-module">
+                <button class="accordion">41. Find Email Address of Any LikedIn Profile With A Fantastic Tool</button>
+                <div class="panel">
+                  <iframe src="https://www.youtube.com/embed/SSPhVNpUI8g" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+
+              <div class="nested-module">
+                <button class="accordion">42. Email Automation Tool</button>
+                <div class="panel">
+                  <iframe src="https://www.youtube.com/embed/0nQLqU755wk" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+
+              <div class="nested-module">
+                <button class="accordion">43. Database Management For Potential Leads</button>
+                <div class="panel">
+                  <iframe src="https://www.youtube.com/embed/xqFTf0izz6g" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+
+            </div>
+          </div>
+      
+          <!-- Section 8: Select Potential Leads & Follow-Up Process -->
+          <div class="module">
+            <button class="accordion">Select Potential Leads & Follow Up Process</button>
+            <div class="panel">
+              
+              <!-- Nested Section under "Select Potential Leads & Follow-Up Process" -->
+              <div class="nested-module">
+                <button class="accordion">44. Remove Junk Leads and Identify Potential Leads</button>
+                <div class="panel">
+                  <iframe src="https://www.youtube.com/embed/gH9kCChrGew" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+
+              <div class="nested-module">
+                <button class="accordion">45. Potential Leads Follow-Up Tips For Sales Executives</button>
+                <div class="panel">
+                  <iframe src="https://www.youtube.com/embed/KEC6ZNE-uZw" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+
+              <div class="nested-module">
+                <button class="accordion">46. Potential Customer Relationship Management Guideline</button>
+                <div class="panel">
+                  <iframe src="https://www.youtube.com/embed/zGzPv4amGQM" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+
+              <div class="nested-module">
+                <button class="accordion">47. What Is CRM?</button>
+                <div class="panel">
+                  <iframe src="https://www.youtube.com/embed/ekwVsLnk8t8" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+
+            </div>
+          </div>
+      
+          <!-- Section 9: Customer Relation Management (CRM) -->
+          <div class="module">
+            <button class="accordion">Customer Relation Management (CRM)</button>
+            <div class="panel">
+              
+              <!-- Nested Section under "Customer Relation Management (CRM)" -->
+              <div class="nested-module">
+                <button class="accordion">48. Why Business Needs CRM Solution?</button>
+                <div class="panel">
+                  <iframe src="https://www.youtube.com/embed/QTmg0Rkns7I" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+
+              <div class="nested-module">
+                <button class="accordion">49. Steps To Setup CRM Solution</button>
+                <div class="panel">
+                    <iframe src="https://www.youtube.com/embed/f64b0Hpm6Ks" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="nested-module">
+                <button class="accordion">50. Budget Allowcation For CRM Solution</button>
+                <div class="panel">
+                    <iframe src="https://www.youtube.com/embed/qQVT_Yp1G3Y" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="nested-module">
+                <button class="accordion">51. Use FREE CRM Software Solution</button>
+                <div class="panel">
+                    <iframe src="https://www.youtube.com/embed/EQCKEYzFqBs" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="nested-module">
+                <button class="accordion">52. White Label CRM Software Solution</button>
+                <div class="panel">
+                    <iframe src="https://www.youtube.com/embed/rga_f4kukwg" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="nested-module">
+                <button class="accordion">53. Build Your First -White Level CRM Software Solution- with No CODING Skill</button>
+                <div class="panel">
+                    <iframe src="https://www.youtube.com/embed/mmJq_vaaK78" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="nested-module">
+              <button class="accordion">54. Capture Facebook Page Audience from Chatbot Strategy</button>
+              <div class="panel">
+                  <iframe src="https://www.youtube.com/embed/V8So-jSB5pI" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+          </div>
+
+            </div>
+          </div>
+      
+          <!-- Section 10: Bonus Chapter - Lead Capture with Chatbot Solution -->
+          <div class="module">
+            <button class="accordion">Bonus Chapter - Lead Capture With Chatbot Solution</button>
+            <div class="panel">
+              
+              <!-- Nested Section under "Lead Capture with Chatbot Solution" -->
+              <div class="nested-module">
+                <button class="accordion">55. Facebook Page Post Organic Engagement With Chatbot Campaign</button>
+                <div class="panel">
+                  <iframe src="https://www.youtube.com/embed/nYRTQ8Z-hoQ" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+
+              <div class="nested-module">
+                <button class="accordion">56. Lead Capture From Chatbot Solution</button>
+                <div class="panel">
+                  <iframe src="https://www.youtube.com/embed/fc1lEn-__Ro" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+
+            </div>
+          </div>
+      
+        </div>
+      </div>
+      
+  <script src="scripts.js"></script>
+</body>
+</html>

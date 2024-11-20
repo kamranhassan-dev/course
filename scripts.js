@@ -4,6 +4,10 @@ const users = {
     username: 'admin',
     password: 'password',
   },
+  user2: {
+    username: 'ami',
+    password: 'nahid',
+  },
 };
 
 // Cache DOM elements
@@ -29,7 +33,7 @@ document.getElementById('login').addEventListener('submit', function (event) {
   const username = document.getElementById('username').value;
   const password = document.getElementById('password').value;
 
-  if (username === users.user1.username && password === users.user1.password) {
+  if (username === users.user1.username, users.user2.username  && password === users.user1.password, users.user2.password) {
     loginPage.classList.remove('active');
     portalPage.classList.add('active');
     localStorage.setItem('isLoggedIn', 'true');
